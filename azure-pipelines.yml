@@ -31,12 +31,6 @@ steps:
       # Put one key=value per line, example:
       # sonar.exclusions=**/*.bin
       sonar.verbose=true
-  inputs:
-    SonarQube: 'SQ8'
-    scannerMode: 'CLI'
-    configMode: 'manual'
-    cliProjectKey: 'broken'
-    cliSources: '.'
-    cliProjectName: 
+
 
 - task: SonarQubeAnalyze@5
