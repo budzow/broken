@@ -19,7 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 - task: SonarQubePrepare@5
-- task: SonarQubePrepare@5
   inputs:
     SonarQube: 'SQ8'
     scannerMode: 'CLI'
