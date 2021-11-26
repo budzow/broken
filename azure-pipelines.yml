@@ -14,7 +14,7 @@ pool:
       Demands:
       - agent.name -equals "michal-ubuntu-w"
 
-#steps:
+steps:
 #- script: echo Hello, world!
 #  displayName: 'Run a one-line script'
 
