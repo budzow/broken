@@ -15,6 +15,9 @@ pool:
       - agent.name -equals "michal-ubuntu-w"
 
 steps:
+- task: CmdLine@2
+  inputs:
+    script: 'cat -A /home/michal/myagent/_work/1/s/broken.ts'
 #- script: echo Hello, world!
 #  displayName: 'Run a one-line script'
 
