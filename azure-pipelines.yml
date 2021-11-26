@@ -12,7 +12,7 @@ trigger:
 pool:
       name: Default
       Demands:
-      - agent.name -equals "michVS2019"
+      - agent.name -equals "michal-ubuntu-w"
 
 steps:
 - script: echo Hello, world!
