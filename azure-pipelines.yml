@@ -17,8 +17,7 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
-    script: 'cat -A /home/michal/myagent/_work/1/s/broken.ts'
-#- script: echo Hello, world!
+    script: 'cat -A /home/michal/myagent/_work/1/s/broken.ts & hexdump -n 3 -C /home/michal/myagent/_work/1/s/broken.ts'
 #  displayName: 'Run a one-line script'
 
 #- script: |
